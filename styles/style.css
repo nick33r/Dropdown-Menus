@@ -1,22 +1,17 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-.page {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+/* -------- Main styles -------- */
 
 .select {
-  inline-size: 20%;
-  block-size: 5%;
-  padding: 10px;
-  border-radius: 5px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  min-inline-size: 211px;
+  border: 1px solid #bdbdbd;
+  border-radius: 4px;
+  padding: 12px 38.5px 12px 15px;
+  background-image: url('../images/arrow-down-s-line.svg');
+  background-repeat: no-repeat;
+  background-position: center right 10px;
+  background-size: 23px;
+  cursor: pointer;
 }
+
